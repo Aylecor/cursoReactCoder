@@ -5,6 +5,7 @@ import {NavDropdown} from 'react-bootstrap'
 import {Form} from 'react-bootstrap'
 import {Button} from 'react-bootstrap'
 import {FormControl} from 'react-bootstrap'
+import CartWidget from './CartWidget/CartWidget'
 
 const NavBar = () => {
     return (
@@ -38,6 +39,7 @@ const NavBar = () => {
                     <Button variant="outline-success">Buscar</Button>
                 </Form>
                 </Navbar.Collapse>
+                <CartWidget/>
             </Container>
         </Navbar>
     )
