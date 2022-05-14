@@ -1,4 +1,4 @@
-import Img from '../assets/logo.png'
+import Img from '../../assets/logo.png'
 import {BsFillArchiveFill} from "react-icons/bs";
 
 const CartWidget = () => {
