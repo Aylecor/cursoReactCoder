@@ -13,12 +13,12 @@ const ItemListContainer =( {saludo} ) => {
 
     useEffect(() => {
         if (id) {
-            getFetch()  // fetch llamada a una api  
+            getFetch()  
             .then(respuesta=> setProducts(respuesta.filter((prod) => prod.category === id)))
             .catch((err)=> console.log(err))
             .finally(()=>setLoading(false))                             
         } else {
-            getFetch()  // fetch llamada a una api  
+            getFetch()    
             .then(respuesta=> setProducts(respuesta))
             .catch((err)=> console.log(err))
             .finally(()=>setLoading(false))                 

@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const Item = ( {prod} ) => {
   return (           
-        <div className='col-md-4'>                        
-        <Link to={`${prod.id}`}>
+        <div className='col-md-4'>
+        <Link to={`/detail/${prod.id}`}>                 
             <div className="card w-100 mt-5" >
                 <div className="card-header">
                     {`${prod.name} - ${prod.category} - ${prod.gender}`}
@@ -18,6 +18,7 @@ const Item = ( {prod} ) => {
                     </button>                
                 </div>
             </div>
+    
         </Link>                                                                                
         </div>
   )
