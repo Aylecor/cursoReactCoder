@@ -6,7 +6,7 @@ import { getFetch } from "../../helpers/getFetch"
 
 const ItemDetailContainer =() => {
     const [product, setProduct] = useState({})
-    const { id } = useParams() 
+    const {id} = useParams() 
 
     useEffect(() => {
             getFetch(id)  

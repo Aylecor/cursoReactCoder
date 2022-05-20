@@ -18,7 +18,6 @@ const Item = ( {prod} ) => {
                     </button>                
                 </div>
             </div>
-    
         </Link>                                                                                
         </div>
   )

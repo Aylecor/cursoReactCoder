@@ -3,10 +3,9 @@ import Item from "../Item/Item"
 const ItemDetail = ({product}) => {
   return (
     <div>
-    {}
-    <Item prod={product} />
-  </div>
-  
+      {}
+      <Item prod={product}/>
+    </div>
   )
 }
 
